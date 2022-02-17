@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!-- PROJECT LOGO -->
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Netflix Clone</h3>
+  <p align="center">
+    fully responsive single page web app built using react.js
+    <br />
+    <a href="https://netflix-clone-415f8.web.app/">View Demo</a>
+  </p>
+</div>
 
-## Available Scripts
+<!-- Project Screenshot -->
 
-In the project directory, you can run:
+## Project Screenshot
 
-### `npm start`
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- Build With -->
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React.js](https://reactjs.org/)
+- [React Youtube NPM Package](https://www.npmjs.com/package/react-youtube/)
+- [Movie Trailer NPM Package](https://www.npmjs.com/package/movie-trailer)
+- [TMDB API](https://www.themoviedb.org/)
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to run this project on your local system
 
-### `npm run eject`
+1. Get a free API Key at [https://www.themoviedb.org/](https://www.themoviedb.org/)
+2. Clone the repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```sh
+   git clone https://github.com/aaveggupta/Netflix-Clone.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Change directory to Netflix-Clone
+   ```sh
+   cd Netflix-Clone
+   ```
+4. Install NPM
+   ```sh
+   npm install
+   ```
+5. Install NPM packages
+   ```sh
+   npm install movie-trailer react-youtube
+   ```
+6. Enter your API in `src/requests.js`
+   ```js
+   const API_KEY = "YOUR_API_KEY";
+   ```
+7. Start NPM
+   ```sh
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- CONTACT -->
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Aaveg Gupta - [linkedin/aaveggupta](https://www.linkedin.com/in/aaveggupta/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Link: [https://github.com/aaveggupta/Netflix-Clone](https://github.com/aaveggupta/Netflix-Clone)
 
-### Code Splitting
+Project Demo: [https://netflix-clone-415f8.web.app/](https://netflix-clone-415f8.web.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- ACKNOWLEDGMENTS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- [Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
+- [Sonny Sangha](https://www.youtube.com/c/SonnySangha)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Advanced Configuration
+<!-- MARKDOWN LINKS & IMAGES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[product-screenshot]: readme_assets/project_screenshot.png
