@@ -19,8 +19,6 @@ const Banner = ({ fetchURL }) => {
   const truncateString = (string = "", maxLength = 50) =>
     string.length > maxLength ? `${string.substring(0, maxLength)}…` : string;
 
-  console.log(movieInfo);
-
   return (
     <header
       className="banner"

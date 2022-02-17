@@ -33,7 +33,6 @@ const Row = ({ title, fetchURL, isLargeRow }) => {
           })
           .catch((error) => {
             alert("Oops! No Trailer found for this.");
-            console.log(error);
           })
       : setMovieUrl("");
   };
