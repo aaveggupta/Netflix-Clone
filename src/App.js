@@ -15,7 +15,7 @@ const App = () => {
         fetchURL={requests.fetchNetflixOriginals}
         isLargeRow // By default true if nothing is supplied
       />
-      <Row title="Treding Now" fetchURL={requests.fetchTrending} />
+      <Row title="Trending Now" fetchURL={requests.fetchTrending} />
       <Row title="Top Rated" fetchURL={requests.fetchTopRated} />
       <Row title="Action Movies" fetchURL={requests.fetchActionMovies} />
       <Row title="Comedy Movies" fetchURL={requests.fetchComedyMovies} />

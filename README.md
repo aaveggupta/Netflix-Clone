@@ -1,5 +1,5 @@
 <div id="top"></div>
-<!-- PROJECT LOGO -->
+
 <div align="center">
 
   <h3 align="center">Netflix Clone</h3>
@@ -10,15 +10,11 @@
   </p>
 </div>
 
-<!-- Project Screenshot -->
-
 ## Project Screenshot
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- Build With -->
 
 ### Built With
 
@@ -29,7 +25,16 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+### Learnings
+
+Important things that I learnt building this project
+
+1. Working with **APIs**.
+2. Learnt efficient way to **fetch data** from api by modeling them in different file structure.
+3. Implemented complex **ui styling** using **CSS**.
+4. Learnt to work with **useEffect** hook.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Installation
 
@@ -65,8 +70,6 @@ Follow these steps to run this project on your local system
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- CONTACT -->
-
 ## Contact
 
 Aaveg Gupta - [linkedin/aaveggupta](https://www.linkedin.com/in/aaveggupta/)
@@ -77,15 +80,4 @@ Project Demo: [https://netflix-clone-415f8.web.app/](https://netflix-clone-415f8
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- [Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
-- [Sonny Sangha](https://www.youtube.com/c/SonnySangha)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[product-screenshot]: readme_assets/project_screenshot.png
+[product-screenshot]: readme_assets/netflix_screenshot.png

@@ -5,18 +5,18 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0.7rem 1.2rem;
+  padding: 1rem 1.9rem;
   transition-timing-function: ease-in;
   transition: all 0.25s;
 }
 
 .navbar__netflix-logo {
-  width: 6rem;
+  width: 8.5rem;
   object-fit: contain;
 }
 
 .navbar__netflix-avatar {
-  width: 2rem;
+  width: 2.6rem;
   object-fit: contain;
 }
 
